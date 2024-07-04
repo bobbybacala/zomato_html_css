@@ -1,0 +1,403 @@
+<!-- zomato website using html and css -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- link the style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link icon of the website -->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Zomato.svg/1200px-Zomato.svg.png">
+    <!-- link the cdn for svg from font awesome website-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="app">
+                <i class="fa-solid fa-mobile-screen mobile"></i>
+                <h4>Get the App</h4>
+            </div>
+
+            <div class="nav-bar">
+                <ul class="nav-bar">
+                    <li>Add Restaurant</li>
+                    <li>Log in</li>
+                    <li>Sign Up</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="head">
+            <!-- transparent img background-->
+            <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="Zomato logo"
+                class="logo">
+            <h3>Discover the best food & drinks in <b>Pune</b></h3>
+            <div class="search-bar">
+                <i class="fa-solid fa-location-dot map-marker"></i>
+                <p>Pune</p>
+                <i class="fa-solid fa-angle-down arrow-down"></i>
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" placeholder="Search for a Restaurant, Cuisine or a Dish" class="search-input">
+            </div>
+        </div>
+        <div class="head-img">
+            <img src="https://images.unsplash.com/photo-1577303935007-0d306ee638cf?q=80&w=2040&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Backgroung image" class="head-back-img">
+        </div>
+    </header>
+
+    <!-- section 1-->
+    <section class="sec1">
+        <div class="user-activity">
+            <!-- order online card -->
+            <div class="activity-card">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                </div>
+                <div class="card-content">
+                    <h3>Order online</h3>
+                    <p>Stay home and order to your doorstep</p>
+                </div>
+            </div>
+
+            <!-- dining card -->
+            <div class="activity-card">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                </div>
+                <div class="card-content">
+                    <h3>Dining</h3>
+                    <p>View the city favourite dining venues</p>
+                </div>
+            </div>
+
+            <!-- nightlife card -->
+            <div class="activity-card">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1578736641330-3155e606cd40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="">
+                </div>
+                <div class="card-content">
+                    <h3>Nightlife and Clubs</h3>
+                    <p>Explore the city top nightlife outlets</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 2 -->
+    <section class="sec2">
+        <div class="collections">
+            <div class="col-header">
+                <h3>Collections</h3>
+                <div class="coll-caption">
+                    <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Pune, based on trends</p>
+                    <div class="coll-caption-link">
+                        <p><a href="">All Collections in Pune</a></p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="place-categories">
+                <!-- new in town card -->
+                <div class="place-card">
+                    <div class="place-img-container">
+                        <img src="https://images.unsplash.com/photo-1481833761820-0509d3217039?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                        <h4 class="place-heading">New in town</h4>
+                        <div class="place-card-link">
+                            <p class="place-desc">13 places</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Best of live Screenings -->
+                <div class="place-card">
+                    <div class="place-img-container">
+                        <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            <img src="" alt="">
+                        <h4 class="place-heading">Live Screenings</h4>
+                        <div class="place-card-link">
+                            <p class="place-desc">27 places</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- It's a date card -->
+                <div class="place-card">
+                    <div class="place-img-container">
+                        <img src="https://images.unsplash.com/photo-1517957096399-3a4e3d34d95e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                        <h4 class="place-heading">It's a date</h4>
+                        <div class="place-card-link">
+                            <p class="place-desc">34 places</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- What a view card -->
+                <div class="place-card">
+                    <div class="place-img-container">
+                        <img src="https://images.unsplash.com/photo-1541336032412-2048a678540d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="">
+                        <h4 class="place-heading">What a View</h4>
+                        <div class="place-card-link">
+                            <p class="place-desc">16 places</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section 3 -->
+    <section class="sec3">
+        <h3>Popular localities in and around Pune</h3>
+
+        <!-- zones of pune -->
+        <div class="zone-parts">
+            <!-- baner zone -->
+            <div class="zone-and-place">
+                <div class="place-name-number">
+                    <h4>Baner</h4>
+                    <p>290 places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <!-- Viman Nagar zone -->
+            <div class="zone-and-place">
+                <div class="place-name-number">
+                    <h4>Viman Nagar</h4>
+                    <p>120 places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <!-- Hinjavdi zone -->
+            <div class="zone-and-place">
+                <div class="place-name-number">
+                    <h4>Hinjawadi</h4>
+                    <p>210 places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+
+        <!-- zones of pune -->
+        <div class="zone-parts">
+            <!-- baner zone -->
+            <div class="zone-and-place">
+                <div class="place-name-number">
+                    <h4>Kothrud</h4>
+                    <p>700 places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <!-- Viman Nagar zone -->
+            <div class="zone-and-place">
+                <div class="place-name-number">
+                    <h4>Salunkhe Vihar</h4>
+                    <p>570 places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <!-- Hinjavdi zone -->
+            <div class="zone-and-place">
+                <div class="place-name-number">
+                    <h4>Warje</h4>
+                    <p>12 places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+
+        <!-- zones of pune -->
+        <div class="zone-parts">
+            <!-- baner zone -->
+            <div class="zone-and-place">
+                <div class="place-name-number">
+                    <h4>Bibwewadi</h4>
+                    <p>90 places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <!-- Viman Nagar zone -->
+            <div class="zone-and-place">
+                <div class="place-name-number">
+                    <h4>Erandwane</h4>
+                    <p>120 places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <div class="see-more">
+                <span>see more <i class="fa-solid fa-arrow-down"></i></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 -->
+    <section class="sec-4">
+        <div class="flex app-promo">
+            <img src="https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png" alt=""
+                class="mobimg">
+            <div class="app-mob-prom-content">
+                <h1>Get the Zomato app</h1>
+                <p>We will send you a link, open it on your phone to download the app</p>
+                <div class="flex promo-input-radio">
+                    <div>
+                        <input type="radio" name="fill" id="email" checked>
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="fill" id="phone">
+                        <label for="phone">Phone</label>
+                    </div>
+                </div>
+                <div class="flex-creditial">
+                    <input type="text" placeholder="Email" class="email">
+                    <button>Share app link</button>
+                </div>
+                <p class="download">Download app from</p>
+                <div class="flex app-platforms">
+                    <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png" alt="">
+                    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-5">
+        <h2>Explore options near me</h2>
+        <div class="sec5-options">
+            <div class="sec5-optionbar">
+                <p>Popular Cuisines near me</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="sec5-optionbar">
+                <p>Popular Restaurants types near me</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="sec5-optionbar">
+                <p>Top Restaurant Chains</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="sec5-optionbar">
+                <p>Cities we deliver to</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot-logo-and-lang">
+            <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="">
+            <div class="lang-and-reg">
+                <select name="" id="country">
+                    <option value="India">India</option>
+                    <option value="UAE">UAE</option>
+                </select>
+                <select name="" id="lang">
+                    <option value="en">English</option>
+                    <option value="ch">Chinese</option>
+                    <option value="hin">Hindi</option>
+                    <option value="vi">Vietnamese</option>
+                </select>
+            </div>
+        </div>
+        <div class="footer-links">
+
+            <!-- links in the footer -->
+            <div class="lists">
+                <div class="sin-list">
+                    <ul>
+                        <li>
+                            <h4>About Zomato</h4>
+                        </li>
+                        <li>Who We Are</li>
+                        <li>Blog</li>
+                        <li>Work with us</li>
+                        <li>Investor Relations</li>
+                        <li>Report Fraud</li>
+                        <li>Press Kit</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+
+                <div class="sin-list">
+                    <ul>
+                        <li>
+                            <h4>Zomaverse</h4>
+                        </li>
+                        <li>Zomato</li>
+                        <li>Blink it</li>
+                        <li>Feeding India</li>
+                        <li>Hypercure</li>
+                        <li>Zomaland</li>
+                    </ul>
+                </div>
+
+                <div class="sin-list">
+                    <ul>
+                        <li>
+                            <h4>For Restaurants</h4>
+                        </li>
+                        <li>Partner with us</li>
+                        <li>Apps for you</li>
+                    </ul>
+                </div>
+
+                <div class="sin-list">
+                    <ul>
+                        <li>
+                            <h4>Learn More</h4>
+                        </li>
+                        <li>Privacy</li>
+                        <li>Security</li>
+                        <li>Terms</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+
+                <div class="sin-list">
+                    <ul>
+                        <li>
+                            <h4>Social Links</h4>
+                        </li>
+                        <li>
+                            <div class="social-links">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-facebook"></i>
+                            </div>
+                        </li>
+                        <li><img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                                alt=""></li>
+                        <li><img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                                alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <span>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and
+            Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All
+            rights reserved.</span>
+    </footer>
+</body>
+
+</html>
